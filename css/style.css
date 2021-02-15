@@ -1,0 +1,278 @@
+/* HEADER */
+
+.cabecalho {
+
+    height: 95vh;
+}
+.cabecalho__bg{
+
+    width: 100vw;
+    position: absolute;
+    top: 0;  
+}
+
+.cabecalho__logo {
+
+    margin-right: 10vw;
+}
+
+.cabecalho__icone-hamburguer {
+
+    display: none;
+}
+
+.cabecalho__menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+    padding: 0 12vw;
+    position: relative;
+    z-index: 1;
+}
+
+.cabecalho__menu-ul {
+    
+    display: flex;
+    margin-left: 160px;
+        
+}
+
+.cabecalho__menu-ul li {
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.cabecalho__menu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+.cabecalho__menu a:hover {
+
+    border-bottom: 2px solid white;
+   
+}
+
+.cabecalho__chamada {
+
+    position: absolute;
+    left: 15%;
+    top: 34%;
+    border: 1px solid white;
+    width: 35vw;
+    height: 25vh;
+    padding: 40px;
+}
+
+.cabecalho__chamada h1 {
+
+    font-size: 85px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+
+/* SECTION INTERAÇÃO */
+
+.interacao { 
+    display: flex;
+    height: 70vh;
+}
+
+.interacao__img {
+
+    position: absolute;
+    left: 15vw;
+}
+
+.interacao__informacoes {
+
+    width: 430px;
+    height: 240px;
+    padding: 50px 100px;
+    background: white;
+    position: relative;
+    left: 45vw;
+    top: 195px;
+}
+
+.interacao__informacoes h2 {
+
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.interacao__informacoes p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 25px;
+    
+
+}
+
+/* SECTION OUTRAS CRIAÇÕES*/
+
+.criacoes__titulo {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+
+}
+
+.criacoes__titulo h1 {
+
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px ;
+    position: relative;
+    right: 4vw;
+
+}
+
+
+.criacoes__botao {
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #000000;
+    background: white;
+    text-transform: uppercase;
+    padding: 4px;
+    margin-right: 45px;
+}
+
+.criacoes__botao:hover {
+
+    background-color: black;
+    color: white;
+
+}
+.criacoes__fotos {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.criacoes__fotos-card:first-of-type {
+
+    margin-left: 15vw;
+}
+
+.criacoes__fotos-card:nth-child(5) {
+
+    margin-left: 15vw;
+}
+
+.criacoes__fotos-card {
+
+    margin-right: 85px;
+    margin-bottom: 50px;
+    position: relative;
+    opacity: 0.9;
+}
+
+.criacoes__fotos-card:hover {
+
+    opacity: 0.2;
+    cursor: pointer;
+    color: black;
+}
+
+
+.criacoes__fotos-card p {
+
+    position: absolute;
+    top: 76%;
+    left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* RODAPE */
+
+footer {
+
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+}
+
+.rodape {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+  
+}
+
+.rodape__rs img {
+
+    margin-right: 12px;
+}
+
+.rodape__rs img:hover {
+
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.rodape__menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white
+}
+
+.rodape__menu-nav {
+
+    position: relative;
+    left: 13vh;
+}
+
+.rodape__menu-ul {
+
+    display: flex;
+}
+
+.rodape__menu-ul li {
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.rodape__menu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+.rodape__menu a:hover {
+
+    border-bottom: 2px solid white;
+   
+}
+
+.rodape__copy p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkgray;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 50px;
+}
