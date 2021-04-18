@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
 
     .cabecalho {
         height: 75vh;
@@ -45,7 +45,7 @@
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
 
     .cabecalho__menu-ul {
 

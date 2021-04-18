@@ -180,14 +180,14 @@
     margin-right: 85px;
     margin-bottom: 50px;
     position: relative;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .criacoes__fotos-card:hover {
 
     opacity: 0.2;
     cursor: pointer;
-    color: black;
+    
 }
 
 
@@ -275,4 +275,22 @@ footer {
     font-size: 15px;
     font-weight: bold;
     margin-right: 50px;
+}
+
+
+/* ANIMAÇÃO ===================**/
+
+[data-anime] {
+
+    opacity: 0;
+    transform: translateX(100%);
+
+    transition: 1.0s ease-out;
+}
+
+
+[data-anime].animate{
+
+   opacity: 1;
+   transform: translateX(0);
 }
