@@ -187,10 +187,7 @@
 
     opacity: 0.2;
     cursor: pointer;
-    
 }
-
-
 .criacoes__fotos-card p {
 
     position: absolute;
@@ -283,7 +280,7 @@ footer {
 [data-anime] {
 
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(50px);
 
     transition: 1.0s ease-out;
 }

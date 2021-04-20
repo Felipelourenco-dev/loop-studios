@@ -392,7 +392,8 @@
         }
 
         .abre__menu {
-
+            display: flex;
+            transition: 1s ease-in-out;
             transform: translateX(0);
         }
 
@@ -438,6 +439,15 @@
 
             color: crimson;
         } 
+
+        
+[data-anime] {
+
+    opacity: 0;
+    transform: translateX(-5px);
+
+    transition: 1.0s ease-out;
+}
       
 
 
